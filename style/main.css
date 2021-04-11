@@ -1,0 +1,628 @@
+/* Defaul settings
+=============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.color {
+    color: rgb(236, 121, 121);
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.button {
+    width: 135px;
+    height: 42px;
+    padding: 11px 26px;
+
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    outline: none;
+    cursor: pointer;
+}
+
+.title {
+    margin-bottom: 34px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 62px;
+    height: 2px;
+    margin: 0 auto 34px;
+    background-color: rgb(231, 36, 36);
+    border: none;
+}
+
+.description {
+    margin-bottom: 17px;
+    font-size: 14px;
+    color: rgb(134, 135, 139);
+}
+
+/* Navigation
+=============================== */
+
+.navigation {
+    background-color: rgb(0, 0, 0);
+}
+
+.navigation-logo {
+    display: inline-block;
+    margin-right: 625px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.navigation-links {
+    display: inline-block;
+}
+
+.navigation-link {
+    margin-right: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 70px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navigation-link:last-child {
+    margin-right: 0;
+}
+
+/* Header
+=============================== */
+
+.header {
+    padding: 109px 0 101px;
+    background: linear-gradient(rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)), url(../images/houses-photo.png) no-repeat;
+}
+
+.header-main {
+    margin-bottom: 101px;
+}
+
+.header-text {
+    display: inline-block;
+    width: 544px;
+    margin-right: 265px;
+}
+
+.header-title {
+    margin-bottom: 32px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.header-descr {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.header-line {
+    width: 64px;
+    height: 0;
+    margin-bottom: 39px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.header-small-text {
+    display: inline-block;
+    width: 282px;
+    margin-bottom: 39px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.header-button {
+    display: block;
+}
+
+/* Header > .header-form
+=============================== */
+
+.header-form {
+    display: inline-block;
+    width: 370px;
+    height: 370px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-title {
+    margin-bottom: 44px;
+    font-size: 20px;
+    line-height: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form-field {
+    display: block;
+    width: 252px;
+    margin: 0 auto 19px;
+    padding-bottom: 19px;
+    font-size: 14px;
+    color: rgb(189, 189, 189);
+    border: none;
+    border-bottom: 3px solid rgb(189, 189, 189);
+}
+
+.last-form-field {
+    margin-bottom: 64px;
+}
+
+.form-submit {
+    display: inline-block;
+    width: 100%;
+    height: 54px;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+    background-color: rgb(236, 121, 121);
+    border: none;
+    border-radius: 0 0 8px 8px;
+    cursor: pointer;
+}
+
+/* Main > .social-media
+=============================== */
+
+.social-media {
+    padding: 14px 0 17px;
+    background-color: rgb(248, 239, 239);
+}
+
+.social-media-text {
+    display: inline-block;
+    width: 365px;
+    margin-right: 129px;
+}
+
+.social-media-title {
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.social-media-descr {
+    font-size: 14px;
+    color:rgb(134, 135, 139);
+}
+
+.social-media-icons {
+    display: inline-block;
+}
+
+.social-media-item {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.social-media-item:last-child {
+    margin-right: 0;
+}
+
+.social-media-icon {
+    width: 42px;
+    height: 42px;
+    filter: invert(.6);
+}
+
+/* Main > .features
+=============================== */
+
+.features {
+    padding: 100px 0 125px;
+    background: url(../images/city-with-reflection.png) no-repeat;
+    background-position: right 110px top 100px;
+}
+
+.features-tabs {
+    display: inline-block;
+    margin-right: 118px;
+}
+
+.features-tab {
+    width: 112px;
+    height: 110px;
+    margin-bottom: 10px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 4px;
+}
+
+.features-tab:first-child {
+    background-color: rgb(236, 121, 121);
+}
+
+.features-tab:last-child {
+    margin-bottom: 0;
+}
+
+.features-tab-descr {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.features-text {
+    width: 572px;
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+}
+
+.features-title {
+    margin-bottom: 58px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.features-descr {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgb(134, 135, 139);
+    text-transform: uppercase;
+}
+
+.features-more-descr {
+    margin-bottom: 89px;
+    font-size: 14px;
+    color: rgb(134, 135, 139);
+    text-transform: uppercase;
+}
+
+.features-button {
+    background-color: rgb(236, 121, 121);
+}
+
+/* Main > .our-process
+=============================== */
+
+.our-process {
+    margin: 0 auto;
+    padding: 80px 0 116px;
+    text-align: center;
+}
+
+.our-process-text {
+    margin-bottom: 68px;
+}
+
+.our-process-card {
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+
+.icon {
+    margin: 0 auto 30px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(231, 36, 36);
+    border-radius: 50%;
+}
+
+.icon-lamp {
+    background: url(../images/lamp.png) no-repeat center;
+}
+
+.icon-keyboard {
+    background: url(../images/keyboard.png) no-repeat center;
+}
+
+.icon-lightning {
+    background: url(../images/lightning.png) no-repeat center;
+}
+
+.card-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+
+.card-descr {
+    font-size: 14px;
+}
+
+/* Main > .pricings
+=============================== */
+
+.pricing {
+    padding: 80px 0 60px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(245, 245, 245);
+}
+
+.pricing-text {
+    margin-bottom: 62px;
+}
+
+.pricing-card {
+    display: inline-block;
+    margin-right: 78px;
+}
+
+.pricing-card:last-child {
+    margin-right: 0;
+}
+
+.pricing-card:nth-child(even) {
+    position: relative;
+    bottom: 15px;
+}
+
+.card-section {
+    width: 340px;
+    height: 50px;
+    margin-bottom: 2px;
+    background-color: rgb(51, 51, 51);
+}
+
+.section-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+}
+
+.big-card-section {
+    width: 340px;
+    height: 100px;
+    background-color: rgb(51, 51, 51);
+    margin-bottom: 2px;
+}
+
+.big-section-text {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 100px;
+}
+
+.small-section-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 50px;
+}
+
+.little-card-section-item {
+    width: 340px;
+    height: 40px;
+    margin: 2px 0;
+    font-size: 14px;
+    line-height: 40px;
+    color: rgb(134, 135, 139);;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Main > .testimonials
+=============================== */
+
+.testimonials {
+    padding: 80px 0 119px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonials-text {
+    margin-bottom: 67px;
+}
+
+.comment {
+    display: inline-block;
+    width: 298px;
+    margin-right: 112px;
+}
+
+.comment:last-child {
+    margin-right: 0;
+}
+
+.comment-text-block {
+    width: 298px;
+    height: 110px;
+    margin-bottom: 22px;
+    padding: 7px 14px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 7px;
+}
+
+.comment-text {
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(134, 135, 139);
+}
+
+.comment-author-image {
+    display: inline-block;
+}
+
+.comment-author-text {
+    display: inline-block;
+}
+
+.comment-author-name {
+    margin-left: 45px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.comment-author-profession {
+    display: inline-block;
+    margin-left: 83px;
+    font-size: 14px;
+    color: rgb(134, 135, 139);
+}
+
+/* Main > .stylish-design
+=============================== */
+
+.stylish-design {
+    margin: 0 auto;
+    padding: 58px 0 38px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.65),
+    rgba(0,0,0,0.65)), url(../images/stylish-design.png);
+}
+
+.stylish-title {
+    color: rgb(255, 255, 255);
+}
+
+.stylish-line {
+    background-color: rgb(255, 255, 255);
+}
+
+.stylish-descr {
+    margin-bottom: 57px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+/* Main > .contact-us
+=============================== */
+
+.contact-us {
+    padding: 80px 0 44px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-us-text {
+    margin-bottom: 91px;
+}
+
+.contact-us-form {
+    position: relative;
+}
+
+.contact-us-inputs {
+    display: inline-block;
+    width: 478px;
+    margin-right: 222px;
+    vertical-align: top;
+}
+
+.contact-us-form-field {
+    display: block;
+    width: 478px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(189, 189, 189);;
+    border: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.password-field {
+    padding-bottom: 46px;
+    margin-bottom: 69px;
+}
+
+.message-field {
+    display: inline-block;
+    width: 478px;
+    padding-bottom: 200px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-us-button {
+    width: 166px;
+    height: 42px;
+    padding: 11px 32px;
+    
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);;
+    background-color: rgb(236, 121, 121);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* Main > .contact-us
+=============================== */
+
+.footer {
+    margin: 0 auto;
+    padding: 30px 0 15px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-social-icons {
+    margin-bottom: 18px;
+}
+
+.footer-social-link {
+    display: inline-block;
+    margin: 0 13px;
+    filter: invert(1);
+}
+
+.footer-social-icon {
+    width: 23px;
+    height: 23px;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
